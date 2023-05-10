@@ -17,6 +17,6 @@ class LaravelLocation extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return \Karim007\LaravelLocation\Location\Location::class;;
+        return \Karim007\LaravelLocation\Location\Location::class;
     }
 }
