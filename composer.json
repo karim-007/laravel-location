@@ -1,0 +1,40 @@
+{
+    "name": "karim007/laravel-location",
+    "description": "Laravel package for ip to location and lat, lon to location reverse proxy",
+    "keywords": [
+        "laravel",
+        "laravel-location",
+        "laravel-ip-location",
+        "laravel-lat-lon-to-location",
+        "laravel-location-package"
+    ],
+    "type": "libarary",
+    "require": {
+        "php": "^8.1",
+        "guzzlehttp/guzzle": "^7.2",
+        "illuminate/support": "^10"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Karim007\\LaravelLocation\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Md abdul karim",
+            "email": "karim.cse007@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Karim007\\LaravelLocation\\LaravelLocationServiceProvider"
+            ],
+            "aliases": {
+                "LaravelNagad": "Karim007\\LaravelLocation\\LaravelLocation"
+            }
+        }
+    }
+}
